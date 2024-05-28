@@ -2,13 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* #home {
-    background-image: url("./src/img/home1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    /* filter: brightness(90%); */
-/* } */
+*{
+    scroll-behavior: smooth
+}
 .texto-borde {
     -webkit-text-stroke: 2px black;
     color: transparent; 
-  }
+}
